@@ -9,8 +9,8 @@
 </head>
 <body>
     <nav>
-        <img src="img/nav logo.png" alt="Website Logo">
-        <img src="img/Menu Button.png" alt="nav button">
+        <img id="navLogo" src="img/nav logo.png" alt="Website Logo">
+        <img id="menuButton" src="img/Menu Button.png" alt="nav button">
     </nav>
     <head>
         <div id="homePgHeader">
@@ -20,20 +20,26 @@
         </div>
     </head>
     <section id="pageDescription">
-        <div>
+        <div id="thisIs">
             <h1>THIS IS</h1>
         </div>
+        <!--decide on image or making from scratch-->
         <img src="img/Channel 4 board.png" alt="">
         <div id="logo" class="headerBoarder">
         </div>
-        <div>
+        <div id="introDescription">
             <h3>A collection of my creative works and projects to date.</h3>
         </div>
     </section>
+
     <section id="projects">
-        <img src="img/Camera illustration.png" alt="Camera Illustration">
-        <div id="photography Section">
+
+        <img id="camera" src="img/Camera illustration.png" alt="Camera Illustration">
+
+        <div id="photographySection">
+
             <h1 class="projectHeaders">photography</h1>
+
             <div id="selectPhotoWindow">
                 <div id="selectedImg" class="img window">
                     <img src="" alt="selectedImg">
@@ -53,33 +59,34 @@
                     </p>
                 </div>
             </div>
-            <img src="img/SkLogo illustration.png" alt="SK light post">
-            <ul>
+            <img id="skLightPost" src="img/SkLogo illustration.png" alt="SK light post">
+            <ul id="scrollingImgs">
                 <Div>
-                    <img src="" alt="scroll image">
-                    <label for="">Untitled.img</label>
+                    <img class="Hscrollimg" src="img/Photographs/0A2CA44E-30F6-474C-B606-2AEE3D8D8166.JPG" alt="scroll image">
+                    <label class="Hscrolltext" for="">Untitled.img</label>
                 </Div>
                 <Div>
-                    <img src="" alt="scroll image">
-                    <label for="">Untitled.img</label>
+                    <img class="Hscrollimg" src="img/Photographs/9070C2F2-6725-415B-9AF9-D5E3A8AC2736.JPG" alt="scroll image">
+                    <label class="Hscrolltext" for="">Untitled.img</label>
                 </Div>
                 <Div>
-                    <img src="" alt="scroll image">
-                    <label for="">Untitled.img</label>
+                    <img class="Hscrollimg" src="img/Photographs/BEEJ8439.JPG" alt="scroll image">
+                    <label class="Hscrolltext" for="">Untitled.img</label>
                 </Div>
                 <Div>
-                    <img src="" alt="scroll image">
-                    <label for="">Untitled.img</label>
+                    <img class="Hscrollimg" src="img/Photographs/IMG_5285.JPG" alt="scroll image">
+                    <label class="Hscrolltext" for="">Untitled.img</label>
                 </Div>
                 <Div>
-                    <img src="" alt="scroll image">
-                    <label for="">Untitled.img</label>
+                    <img class="Hscrollimg" src="img/Photographs/IMG_5293.JPG" alt="scroll image">
+                    <label class="Hscrolltext" for="">Untitled.img</label>
                 </Div>
             </ul>
         </div>
-        <div id="Sk Section">
+
+        <div id="skSection">
             <h1 class="projectHeader">Sk</h1>
-            <h3>Est.2019</h3>
+            <h3 id="homePgSubtext">Est.2019</h3>
             <div class="Window">
                 <label for="">Example Video.mp4</label>
                 <img src="img/sk gif final.gif" alt="gif video">
@@ -116,11 +123,12 @@
             </div>
         </div>
     </section>
+
     <footer> 
         <!--might swich structure to footer background-->
         <img src="img/Structure.png" alt="Desktop">
         <div class="Window">
-            <label for="">Contact</label>
+            <label class="footerwindowtext" for="">Contact</label>
             <div id="contact window">
                 <div>
                     <img src="img/Ellipse 213.png" alt="smiling icon">
@@ -147,8 +155,8 @@
             </div>
         </div>
         <div class="Window">
-            <label for="">Folders</label>
-            <div id="nav folders">
+            <label class="footerwindowtext" for="">Folders</label>
+            <div id="navFolders">
                 <ul>
                     <div>
                         <img src="img/Folder Icon.png" alt="open folder icon">
