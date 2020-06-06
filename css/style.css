@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    font-family:  "Century Gothic","CenturyGothic","AppleGothic","sans-serif"; 
+}
+
+nav{
+    position: fixed;
+}
+
+/* fix colorbar*/
+#homePgHead{
+    background-image:url('../img/Colorbar.png');
+    position: center;
+    margin: 0;
+    background-size: cover;
+    width: cover;
+    text-align: center;
+}
+
+#menuButton{
+    position: absolute;
+    left: 26em;
+    right: 0%;
+    top: 16.67%;
+    bottom: 14.29%;
+}
+
+.Hscrollimg{
+    width: 120px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#homeSkVideo{
+    width: 280px;
+    height: 160px;
+    left: 84px;
+    top: 1961px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Window{
+    width: 256px;
+    height: 169px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textWindow{
+    text-align: justify;
+}
+
+#scrollingImgs{
+    width: 375px;
+    height: 160px;
+    left: 0px;
+    top: 1268px;
+    overflow-x: scroll;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p{
+    width: 245px;
+    height: 160px;
+    left: 27px;
+    top: 1890px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #272727;
+}
+
+.projectHeader{
+    left: -264.71%;
+    right: 307.35%;
+    top: 154.63%;
+    bottom: -126.85%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 95px;
+    line-height: 119px;
+    color: #000000;
+}
+
+.windowHeader{
+    width: 256px;
+    height: 21px;
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}

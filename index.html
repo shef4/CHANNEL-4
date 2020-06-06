@@ -6,17 +6,16 @@
     <meta name="description" content="A fun personal blog showcasing works by Shef">
     <meta name="keywords" content="photography website,art blog,creative archive">
     <title>CHANNEL 4</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     <nav>
         <img id="navLogo" src="img/nav logo.png" alt="Website Logo">
         <img id="menuButton" src="img/Menu Button.png" alt="nav button">
     </nav>
-    <head>
-        <div id="homePgHeader">
-            <div class="headerBoarder">
-                <h1>HI I'M SHEF</h1>
-            </div>
+    <section id="homePgHead">
+        <div class="headerBoarder">
+            <h1>HI I'M SHEF</h1>
         </div>
     </head>
     <section id="pageDescription">
@@ -38,15 +37,25 @@
 
         <div id="photographySection">
 
-            <h1 class="projectHeaders">photography</h1>
+            <h1 class="projectHeader">Photography</h1>
 
             <div id="selectPhotoWindow">
+                <div>
+                    <img src="" alt="Larrow">
+                    <label class="windowHeader" for="">Photo.img</label>
+                    <img src="" alt="Rarrow">
+                </div>
+                
                 <div id="selectedImg" class="img window">
                     <img src="" alt="selectedImg">
                 </div>
             </div>
-            <div id="selectPhotoTextWindow">
-                <div id="selectedImgText" class="text window">
+
+            <div id="selectPhotoTextWindow" class="Window">
+                <div id="selectedImgText" class="textWindow">
+                    <div>                    
+                        <label class="windowHeader" for="">Description.txt</label>                        
+                    </div>
                     <p>
                         <strong>Year:</strong><br>
                         2019 <br>
@@ -88,16 +97,16 @@
             <h1 class="projectHeader">Sk</h1>
             <h3 id="homePgSubtext">Est.2019</h3>
             <div class="Window">
-                <label for="">Example Video.mp4</label>
-                <img src="img/sk gif final.gif" alt="gif video">
+                <label class="windowHeader" for="">Example Video.mp4</label>
+                <img id="homeSkVideo" src="img/sk gif final.gif" alt="gif video">
             </div>
             <div class="Window">
-                <label for="">Screenshot_04.img</label>
+                <label class="windowHeader" for="">Screenshot_04.img</label>
                 <img src="img/Rectangle 55.png" alt="Sk Instagram page">
             </div>
             <div class="Window">
-                <label for="">What is Sk.txt</label>
-                <div class="text window">
+                <label class="windowHeader" for="">What is Sk.txt</label>
+                <div class="textWindow">
                     <p><strong>Description:</strong> <br>
                         A collective focused on the promotion and 
                         collaberation of global artist, while also 
@@ -111,8 +120,8 @@
                 </div>
             </div>
             <div class="Window">
-                <label for="">Contact Info.txt</label>
-                <div class="text window">
+                <label class="windowHeader" for="">Contact Info.txt</label>
+                <div class="textWindow" >
                     <p>
                         <strong>Instagram:</strong><br>
                         @sk_thestreet <br>
@@ -128,8 +137,8 @@
         <!--might swich structure to footer background-->
         <img src="img/Structure.png" alt="Desktop">
         <div class="Window">
-            <label class="footerwindowtext" for="">Contact</label>
-            <div id="contact window">
+            <label class="windowHeader" for="">Contact</label>
+            <div id="contact window" class="textWindow">
                 <div>
                     <img src="img/Ellipse 213.png" alt="smiling icon">
                     <div>
@@ -155,8 +164,8 @@
             </div>
         </div>
         <div class="Window">
-            <label class="footerwindowtext" for="">Folders</label>
-            <div id="navFolders">
+            <label class="windowHeader" for="">Folders</label>
+            <div id="navFolders" class="textWindow">
                 <ul>
                     <div>
                         <img src="img/Folder Icon.png" alt="open folder icon">
