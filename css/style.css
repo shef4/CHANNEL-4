@@ -1,29 +1,101 @@
+/*500 / 375 = 1.3333 */
 body{
     padding: 0;
-    font-family:  "Century Gothic","CenturyGothic","AppleGothic","sans-serif"; 
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav{
     position: fixed;
+    margin: 13px;
+    padding: 0;
 }
 
-/* fix colorbar*/
-#homePgHead{
-    background-image:url('../img/Colorbar.png');
-    position: center;
-    margin: 0;
-    background-size: cover;
-    width: cover;
-    text-align: center;
+#navLogo{
+    width: 230px;
 }
 
 #menuButton{
-    position: absolute;
-    left: 26em;
-    right: 0%;
-    top: 16.67%;
-    bottom: 14.29%;
+    width: 52px;
+    margin-bottom: 8px;
 }
+
+/* fix colorbar*/
+#homeIntroBoarder{
+    background-image:url('../img/Colorbar\ \(2\).png');
+    background-size: cover;
+    background-position:center;
+    text-align: center;
+    height: 492px;
+    top: 20px;
+}
+
+.headerBoarder h1{ 
+    display: inline-block;
+    background-color: #191919;
+
+    position: relative;
+    top:160px;
+    width:403px; 
+    height: 101px;
+    margin: 0 auto;
+
+
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 70px;
+    line-height: 100px;
+    text-align: center;
+
+    color: #FFFFFF;
+    
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .Hscrollimg{
     width: 120px;
