@@ -1,110 +1,284 @@
-/*500 / 375 = 1.3333 */
+/* 375*/
+/* 1366×768*/
+/*1920×1080*/
+
 body{
     padding: 0;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 nav{
+    text-align: center;
+}
+
+#nav{
+    z-index: 10;
+    width: 100%;
+
     position: fixed;
-    margin: 13px;
-    padding: 0;
+    display: flex;   
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.menuButton{
+    padding:10px; 
+    text-align: center;
+    
+    width: 14.3%;
+}
+
+.navLogo{
+    
+    z-index: 2;
+    padding:10px; 
+    text-align: center;
 }
 
 #navLogo{
-    width: 230px;
+    flex:1;
+    width: 177px;
+    z-index: 2;
 }
 
 #menuButton{
-    width: 52px;
-    margin-bottom: 8px;
+    margin-top: 6px;
+    flex: 1;
+    width: 40px;
+    z-index: 2;
+    
 }
 
 /* fix colorbar*/
 #homeIntroBoarder{
     background-image:url('../img/Colorbar\ \(2\).png');
+    background-position:center center;
+    height: 369px;
+    vertical-align: middle;
     background-size: cover;
-    background-position:center;
     text-align: center;
-    height: 492px;
-    top: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .headerBoarder h1{ 
-    display: inline-block;
-    background-color: #191919;
+    background-color: #000000;
+    z-index: 1;
 
     position: relative;
-    top:160px;
-    width:403px; 
-    height: 101px;
+    top:117px;
+    width: 310px;
     margin: 0 auto;
 
-
-    font-style: normal;
     font-weight: lighter;
-    font-size: 70px;
-    line-height: 100px;
-    text-align: center;
+    font-size: 55px;
+    line-height: 78px;
 
     color: #FFFFFF;
     
     box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.25);
 }
 
+#pageDescription #thisIs h1{
+    font-weight: lighter;
+    font-size: 46px;
+    text-align: center;
+    margin: 0;
+}
 
+#pageDescription img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+}
 
+#pageDescription #introDescription h3{ 
+    font-size: 30.5px;
+    font-weight: normal;
+    text-align: center;
+    width: 285px;
+    height: 114px;
+    margin-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
 
+#photographySection{
+    text-align: center;
+}
 
+#camera{
+    z-index:1;
 
+    position: absolute;
+    width: 313px;
+    top: 630px;
+}
 
+.projectHeader{
+    position: relative;
+    top: 138px;
+    z-index:2;
 
+    font-weight: lighter;
+    font-size: 64px;
+    color: #000000;
 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
+.selectedPhoto{
+    width:100%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    top:915px;
+}
 
+/*window show be an id and the forehead and body a class*/
+#selectPhotoTextWindow{
+    flex:1;
+    flex-basis: 125px;
+    background: rgb(202, 104, 104);
+    margin-left: 12px;
+    margin-right: 24px;
+}
 
+#selectPhotoWindow{
+    flex:1;
+    flex-basis: 190px;
+    background: rgb(202, 104, 104);   
+    margin-left: 24px; 
+    margin-right: 12px;
+}
 
+#selectedImg{
+    width: 100%;
+    height: 187px;
+    background-color: bisque;
+    background-size: cover;  
+    margin: 0;
+    border: 1px solid #000000;
+    border-top: none;
+    text-align: left;
+}
 
+#selectPhotoWindow div img{
+    width: 9px;
+    height: auto;
+}
 
+#selectPhotoWindow .foreHead div{
+    display: inline;
+}
 
+.foreHead{
+    width: 100%;
+    height: 21px;
+    text-align: center;
+    background: #C4C4C4;
+    border: 1px solid #000000;
+}
 
+.textBody p{
+    margin: 0;
+    margin-left: 5px;
+    width: 120px;
+}
 
+.textBody{
+    margin: 0;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-top: none;
+    width: 100%;
+    height: 187px;
+    text-align: left;
+}
+#skLightPost{
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    left: 0px;
+    top: 270px;
+}
 
+#scrollingImgs{
+    position: relative;
+    width: 100%;
+    height: 160px;
+    left: 0px;
+    top: -295px;
+    display: flex;
+    z-index: 4;
+    overflow-x: scroll;
+    padding: 0;
+}
+#scrollingImgs::-webkit-scrollbar {
+    display: none;
+}
 
+#scrollingImgs{
+    -ms-overflow-style: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.Hscrollimg{
+.Hscrollimg{ 
+    margin-left:10px;
+    margin-right:10px;
     width: 120px;
     height: 120px;
     left: 0px;
     top: 0px;
     border: 1px solid #000000;
-    box-sizing: border-box;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #homeSkVideo{
     width: 280px;
@@ -116,27 +290,13 @@ nav{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.Window{
-    width: 256px;
-    height: 169px;
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+
 
 .textWindow{
     text-align: justify;
 }
 
-#scrollingImgs{
-    width: 375px;
-    height: 160px;
-    left: 0px;
-    top: 1268px;
-    overflow-x: scroll;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+
 
 p{
     width: 245px;
@@ -147,25 +307,8 @@ p{
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
-    color: #272727;
-}
-
-.projectHeader{
-    left: -264.71%;
-    right: 307.35%;
-    top: 154.63%;
-    bottom: -126.85%;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 95px;
-    line-height: 119px;
     color: #000000;
 }
 
-.windowHeader{
-    width: 256px;
-    height: 21px;
-    background: #C4C4C4;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-}
+
+

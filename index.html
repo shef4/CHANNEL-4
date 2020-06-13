@@ -11,8 +11,14 @@
 <body>
 
     <nav>
-        <img id="navLogo" src="img/nav logo.png" alt="Website Logo">
-        <img id="menuButton" src="img/Menu Button.png" alt="nav button">
+        <span id="nav">
+            <div class="navLogo">
+                <img id="navLogo" src="img/nav logo.png" alt="Website Logo">
+            </div>
+            <div class="menuButton">
+                <img id="menuButton" src="img/Menu Button.png" alt="nav button">
+            </div>
+        </span>
     </nav> 
 
     <section id="homeIntroBoarder">
@@ -26,14 +32,12 @@
         <div id="thisIs">
             <h1>THIS IS</h1>
         </div>
-        <img src="img/Channel 4 board.png" alt="">
-        <div id="logo" class="headerBoarder">
-        </div>
+        <img src="img/Channel 4 board.png" alt="Channel 4 Logo">
         <div id="introDescription">
             <h3>A collection of my creative works and projects to date.</h3>
         </div>
     </section>
-    <!--
+    
     <section id="projects">
 
         <img id="camera" src="img/Camera illustration.png" alt="Camera Illustration">
@@ -42,36 +46,39 @@
 
             <h1 class="projectHeader">Photography</h1>
 
-            <div id="selectPhotoWindow">
-                <div>
-                    <img src="" alt="Larrow">
-                    <label class="windowHeader" for="">Photo.img</label>
-                    <img src="" alt="Rarrow">
+            <div class="selectedPhoto">
+
+                <div id="selectPhotoWindow" class="window">
+                    <div class="foreHead">
+                        <img src="img/Vector 17.png" alt="Larrow">
+                        <div>Photo.img</div>
+                        <img src="img/Vector 16.png" alt="Rarrow">
+                    </div>
+                    
+                    <div id="selectedImg" class="imgBody"> 
+                    </div>
                 </div>
-                
-                <div id="selectedImg" class="img window">
-                    <img src="" alt="selectedImg">
+    
+                <div id="selectPhotoTextWindow" class="window">              
+                        <div class="foreHead">Description.txt</div>                        
+                        <div class="textBody">
+                            <p>
+                                <strong>Year:</strong><br>
+                                2019 <br>
+                                <strong>Location:</strong> <br>
+                                Imperial Hwy & S Vermont Ave, Los Anglese, CA <br>
+                                <strong>Model:</strong> <br>
+                                @Skaterboy - instagram <br>
+                                <strong>Comment:</strong> <br>
+                                This was taken the same night returned from a holiday to ...
+                            </p>
+                        </div>
                 </div>
+
             </div>
 
-            <div id="selectPhotoTextWindow" class="Window">
-                <div id="selectedImgText" class="textWindow">
-                    <div>                    
-                        <label class="windowHeader" for="">Description.txt</label>                        
-                    </div>
-                    <p>
-                        <strong>Year:</strong><br>
-                        2019 <br>
-                        <strong>Location:</strong> <br>
-                        Imperial Hwy & S Vermont Ave, Los Anglese, CA <br>
-                        <strong>Model:</strong> <br>
-                        @Skaterboy - instagram <br>
-                        <strong>Comment:</strong> <br>
-                        This was taken the same night returned from a holiday to ...
-                    </p>
-                </div>
-            </div>
             <img id="skLightPost" src="img/SkLogo illustration.png" alt="SK light post">
+
             <ul id="scrollingImgs">
                 <Div>
                     <img class="Hscrollimg" src="img/Photographs/0A2CA44E-30F6-474C-B606-2AEE3D8D8166.JPG" alt="scroll image">
@@ -135,7 +142,7 @@
             </div>
         </div>S
     </section>
-
+<!--
     <footer> 
         <img src="img/Structure.png" alt="Desktop">
         <div class="Window">
