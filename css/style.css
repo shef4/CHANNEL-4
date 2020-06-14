@@ -5,8 +5,17 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
+
+p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
 nav{
     text-align: center;
 }
@@ -121,9 +130,9 @@ nav{
     position: relative;
     top: 138px;
     z-index:2;
-
+    font-family: sans-serif;
     font-weight: lighter;
-    font-size: 64px;
+    font-size: 60px;
     color: #000000;
 
     margin-left: auto;
@@ -178,6 +187,9 @@ nav{
 }
 
 .foreHead{
+    position: relative;
+    left: 0;
+    right: 0;
     width: 100%;
     height: 21px;
     text-align: center;
@@ -200,6 +212,7 @@ nav{
     height: 187px;
     text-align: left;
 }
+
 #skLightPost{
     width: 100%;
     position: relative;
@@ -237,78 +250,190 @@ nav{
     border: 1px solid #000000;
 }
 
+#skSection .projectHeader{
+    float: left;
 
+    position: relative;
+    top: -19px;
+    left:100px;
+    width: auto;
 
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 75px;
 
+    color: #000000;
+}
 
+#skSection .projectHeaderSubtext {
+    float: right;
+    
+    position: relative;
+    top: 15px;
+    left:-40px;
 
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
 
+    margin: 0;
+}
 
+#skWindowsContainer{
+    position: relative;
+    background-color: burlywood;
+    width: 100%;
+    height: 580px;
+    top: 60px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#homeSkVideoWindow {
+    position: relative;
+    left: 0;
+    top: 0;
+    background-color: crimson;
+    width: 280px;
+    height: 181px;
+    
+}
 
 #homeSkVideo{
-    width: 280px;
+    position: relative;
+    width: auto;
     height: 160px;
-    left: 84px;
-    top: 1961px;
+    left: 0px;
+    top: 0px;
     border: 1px solid #000000;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+#skDescriptionWindow{
+    position: relative;
+    left: 0%;
+    top: 0px;
 
-
-.textWindow{
-    text-align: justify;
+    width: 256px;
+    height: auto;
+    z-index: 2;
 }
 
+#skDescriptionWindow .textBody{
+    height: auto;
+}
 
+#skDescriptionWindow .textBody p{
+    width: 100%;
+    margin: 0px 4px 4px 4px;
+}
 
-p{
-    width: 245px;
+#skContactWindow {
+    position: relative;
+    right: 0;
+    top: 0px;
+    
+    width: 200px;
+    height: auto;
+    z-index: 3;
+}
+
+#skContactWindow .textBody{
+    height: 100px;
+}
+
+#homeSkProfileWindow {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    
+    width: 190px;
+    height: auto;
+    
+}
+
+#homeSkProfile{
+    width: auto;
+    height: 283px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    position: absolute;
+    left: 0px;
+    top: 2246px;
+    width: 100%;
+}
+
+#monitor{
+    background-image: url("../img/Monitor.png");
+    background-size: cover;
+    width: 100%;
+    height: 387px;
+}
+
+#navFolders ul {
+    margin: 4px 4px 0px 4px;
+    padding: 0;
+}
+
+#navFolders ul:first-child{
+    margin: 0;
+}
+
+#foldersWindow{
+    width: 155px;
+}
+
+.folder img,.folder h3{
+    margin-top: 15px;
+    margin-left: 10px;
+    display: inline;
+}
+
+.folder h3{
+    position: relative;
+    top: -5px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.folderIcon{
+    width: 22px;
+    height: 21px;
+}
+
+#contactWindow{
+    position: relative;
+    width: 210px;
     height: 160px;
-    left: 27px;
-    top: 1890px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
-    color: #000000;
+    left: 42px;
+    top: 425px;
 }
 
+#contactWindow .textBody{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 180px;
+}
+
+#contactWindow button{
+    position: relative;
+    left: 70px;
+    margin-top: 10px;
+}
+
+#contactWindow ul{
+    padding-left: 60px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+#contactWindow .textBody div{
+    margin-left: 5px;
+}
 
 
