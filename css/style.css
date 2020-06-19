@@ -3,9 +3,14 @@
 /*1920×1080*/
 
 body{
+    position: relative;
+    min-height: 100vh;
     padding: 0;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.contentWrap{
+    padding-bottom: 480px; 
 }
 
 p{
@@ -367,7 +372,7 @@ nav{
 footer {
     position: absolute;
     left: 0px;
-    top: 1885px;
+    bottom: 0;
     width: 100%;
 }
 
@@ -514,11 +519,10 @@ footer {
     display: inline-block;
 }
 
-#contactIcons .igIcon {
-    
+#contactIcons .igIcon {   
     background-image: url('../footer/igIcon.png');
     background-size: cover;
     display: inline-block;
     width: 100.25px;
-    height:100.92px ;
+    height:100.92px;
 }
