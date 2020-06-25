@@ -259,6 +259,25 @@ footer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
 /*|||||||||||||||*/
 /*|||HOME PAGE|||*/
 /*|||||||||||||||*/
@@ -499,6 +518,25 @@ footer {
   margin: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
 /*||||||||||||||||*/
 /*|||About PAGE|||*/
 /*||||||||||||||||*/
@@ -520,13 +558,32 @@ footer {
   top: 90px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
 /*|||||||||||||*/
 /*|||Sk PAGE|||*/
 /*|||||||||||||*/
 
 /* Sk Page | Header Container*/
 /* Header Container | Text */
-.skPageHeader .projectHeader{
+.skPageHeader .skProjectHeader{
   position: relative;
   top: 0px;
   margin: 0 0 0 0;
@@ -587,6 +644,7 @@ footer {
 .skPageHeader {
   position: relative;
   top: 60px;
+  margin: 0 0.4em 0 0.4em;
 }
 /* Sk Page | Description Container*/
 /* Description Container | Text */
@@ -652,7 +710,7 @@ footer {
 /* Project List container | Text */
 .skProjectContainerIntro{
     position: relative;
-    bottom: 20px;
+    bottom: 10px;
 
     text-align: center;
     width: 100%;
@@ -672,19 +730,31 @@ width: 100%;
 }
 /*Project List container | Project | Text */
 .skSubProjectHeader h1 {
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: lighter;
-    width: 2em;
+    width: 8.2em;
 }
 /*Project List container | Project | Text */
 .skSubProjectHeader h3 {
-    position: relative;
-    bottom: 70px;
-    left: 73vw;
-
     font-size: 1.2em;
     font-weight: lighter;
+}
+/*Project List container | Project | Text */
+.skSubProjectHeader #skSubProjectType {
+    position: relative;
+    bottom: 88px;
+    left: 0;
+
+    width: 100%;
+}
+/*Project List container | Project | Text */
+.skSubProjectHeader #skSubProjectYear {
+    position: relative;
+    bottom: 56px;
+    left: 73vw;
     width: 2em;
+    margin: 0 0 0 0;
+    
 }
 /*Project List container | Project | Container */
 .skSubProjectHeader{
@@ -693,7 +763,7 @@ width: 100%;
 /*Project List container | Project | Text */
 .skSubProjectDescription {
     font-size: 0.8em;
-    margin: 2vh 0 2vh 0;
+    margin: 25px 0 20px 0;
 }
 /*Project List container | Project | Container */
 .skSubProject {
@@ -709,7 +779,7 @@ width: 100%;
 /*Project List container | Container*/
 #skProjectList{
     position: relative;
-    bottom: 140px;
+    bottom: 135px;
     padding: 0 0 0 0;
 }
 /* Projects Container | Container */
@@ -718,6 +788,23 @@ width: 100%;
     margin: 225px 0 0 0;
     font-size: 1.3rem;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
