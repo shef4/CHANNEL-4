@@ -811,3 +811,28 @@ width: 100%;
 /*||||||||||||||||||||||*/
 /*|||Photography PAGE|||*/
 /*||||||||||||||||||||||*/
+
+.galleryImg {
+  padding: 0 3vh 0 3vh;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+
+
+.galleryImg img{
+  width: 100%;
+  height: auto;
+  border: 1px solid #000000;
+}
+
+#galleryProject ul{
+  padding: 0;
+}
+
+/* Gallery Container | Container */
+#galleryProject {
+  position: relative;
+  padding: 8vh 0 0 0;
+  font-size: 1.3rem;
+}
