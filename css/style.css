@@ -11,8 +11,7 @@ body {
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
-    sans-serif;
+  font-family: sans-serif;
 }
 
 .contentWrap {
@@ -96,9 +95,9 @@ nav {
 /* Footer | Text Window*/
 #foldersWindow {
   position: relative;
-  width: 130px;
-  top: 140px;
-  left: 236px;
+  width: 140px;
+  top: 92px;
+  left: 220px;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -115,13 +114,16 @@ nav {
   top: -5px;
   margin: 0;
   font-weight: lighter;
+  font-size: medium;
 }
 .folderIcon {
   width: 22px;
   height: 21px;
 }
 #navFolders ul {
-  margin: 4px 4px 0px 4px;
+  position: relative;
+  top: 15px;
+  margin: 4px 4px 4pxpx 4px;
   padding: 0;
 }
 #navFolders ul:first-child {
@@ -131,10 +133,10 @@ nav {
 /* Text Window | Text Formating*/
 #contactWindow {
   position: relative;
-  width: 210px;
+  width: 215px;
   height: 160px;
-  left: 35px;
-  top: 410px;
+  left: 50px;
+  top: 415px;
 }
 #contactWindow .textBody {
   position: relative;
@@ -146,6 +148,9 @@ nav {
 }
 /* Text Window | Text Formating*/
 #contactWindow .textBody .email {
+  position: relative;
+  top: -6px;
+  left: 1px;
   margin: 0;
   padding: 0 0 0 5px;
   float: left;
@@ -154,19 +159,23 @@ nav {
 /* Text Window | Image*/
 #contactImg {
   position: relative;
-  top: 3px;
-  left: 5px;
+  top: 8px;
+  left: 3px;
   width: 43.73px;
-  height: 45.1px;
+  height: 47.1px;
   background-image: url("../img/footer/contactFaceImg.png");
   background-size: cover;
-
+  background-color: rgb(138, 211, 177);
+  border: 1px solid #000000;
   padding: 2px 0 0 5px;
   float: left;
   margin: 0;
 }
 /* Text Window | Text Formating*/
 #contactInfo {
+  position: relative;
+  top:0px;
+  left: -8px;
   width: 150px;
   padding: 9px 0px 5px 0px;
   margin: 0px;
@@ -176,8 +185,8 @@ nav {
 /* Text Window | Button*/
 #contactWindow button {
   position: relative;
-  left: 70px;
-  margin-top: 15px;
+  left: 62px;
+  margin: 10px 0 0 0;
   background-color: #c8c8c8;
 
   border: 1px solid #000000;
@@ -185,30 +194,19 @@ nav {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+
+  width: 100px;
+  height: 30px;
 }
 /* Text Window | Image Button*/
-#contactIcons .githubIcon {
-  width: 27.25px;
-  height: 26.92px;
-  background-image: url("../footer/githubIcon.png");
+#contactIcons .githubIcon , #contactIcons .linkedInIcon , #contactIcons .igIcon {
+  position: relative;
+  left: 0px;
   background-size: cover;
   display: inline-block;
-}
-/* Text Window | Image Button*/
-#contactIcons .linkedInIcon {
-  width: 27.25px;
-  height: 26.92px;
-  background-image: url("../footer/linkedInIcon.png");
-  background-size: cover;
-  display: inline-block;
-}
-/* Text Window | Image Button*/
-#contactIcons .igIcon {
-  background-image: url("../footer/igIcon.png");
-  background-size: cover;
-  display: inline-block;
-  width: 100.25px;
-  height: 100.92px;
+  padding: 0 5px 0 5px;
+  width: 35.3px;
+  height: 34.5px;
 }
 /* Text Window | Container*/
 .windowContainer {
@@ -232,7 +230,7 @@ nav {
   left: 35px;
   width: 80%;
 
-  font-size: 14px;
+  font-size: 13px;
 }
 /* Footer | Container*/
 footer {
@@ -245,8 +243,8 @@ footer {
 /* Sk Profile Image Window */
 .skProfileWindow {
   position: relative;
-  left: 5%;
-  top: -29%;
+  left: 46%;
+  top: -35%;
 
   width: 190px;
   height: auto;
@@ -283,6 +281,10 @@ footer {
 /*|||||||||||||||*/
 
 /* Home Page | Text Formating */
+#homeContentWrap {
+  padding-bottom: 720px;
+}
+/* Home Page | Text Formating */
 .headerBoarder h1 {
   background-color: #000000;
   z-index: 1;
@@ -314,9 +316,11 @@ footer {
 /* Welcome Mat  | Text Formating */
 #pageDescription #thisIs h1 {
   font-weight: lighter;
-  font-size: 46px;
+  font-size: 40px;
   text-align: center;
-  margin: 0;
+  
+  font-family: sans-serif;
+  margin: 10px 0 0 0;
 }
 /* Welcome Mat  | Text Formating */
 #pageDescription img {
@@ -327,9 +331,10 @@ footer {
 }
 /* Welcome Mat  | Text Formating */
 #pageDescription #introDescription h3 {
-  font-size: 30.5px;
+  font-size: 40px;
   font-weight: normal;
   text-align: center;
+  font-family: sans-serif;
   width: 285px;
   height: 114px;
   margin-top: 0;
@@ -338,13 +343,16 @@ footer {
   margin-right: auto;
   margin-bottom: 0;
 }
-/* Home Page | Background Image */
+/* Home Page | Projects |Background Image */
+#projects{
+  padding-top: 120px;
+}
+/* Home Page | Projects |Background Image */
 #camera {
   z-index: 1;
-
   position: absolute;
   width: 313px;
-  top: 630px;
+  top: 750px;
 }
 /* Home Page | Projects | Text Formating */
 .projectHeader {
@@ -366,6 +374,13 @@ footer {
   flex-basis: 125px;
   margin-left: 12px;
   margin-right: 24px;
+  
+}
+#selectPhotoTextWindow .textBody{
+  padding-top: 5px;
+}
+#selectPhotoTextWindow .textBody p{
+  font-size: 15px;
 }
 /* photography | Image Window*/
 #selectPhotoWindow {
@@ -390,6 +405,7 @@ footer {
 }
 #selectPhotoWindow .foreHead div {
   display: inline;
+  margin: 0 35px 0 35px;
 }
 /* photography | Container */
 .selectedPhoto {
@@ -397,7 +413,7 @@ footer {
   position: absolute;
   z-index: 2;
   display: flex;
-  top: 915px;
+  top: 1050px;
 }
 /* photography | Hor. Scrolling Images */
 #scrollingImgs {
@@ -426,6 +442,9 @@ footer {
   top: 0px;
   border: 1px solid #000000;
 }
+#scrollingImgs div{
+  text-align: center;
+}
 /* Home Page | Background Image */
 #skLightPost {
   width: 100%;
@@ -438,55 +457,112 @@ footer {
 /* Sk | Image Window*/
 #homeSkVideoWindow {
   position: relative;
-  left: 24%;
-  top: -19%;
-
+  left: 88px;
+  top: -70px;
   width: 280px;
   height: 181px;
+  z-index: 3;
+}
+#homeSkVideoWindow .foreHead {
+  position: relative;
+  top: 15px;
+  z-index: 3;
+}
+#homeSkVideoWindow .foreHead label{
+  position: relative;
+  top: -76px;
 }
 #homeSkVideo {
   position: relative;
   width: auto;
   height: 160px;
+  width: 282px;
   right: 0px;
-  top: 0px;
-
+  top: -50px;
+ 
+  
   border: 1px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 /* Sk | Text Window*/
 #skDescriptionWindow {
   position: relative;
   left: 2%;
-  top: 0px;
+  top: 15px;
 
-  width: 256px;
+  width: 240px;
   height: auto;
   z-index: 4;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+#skDescriptionWindow .foreHead {
+  float:left;
+  position: relative;
+  top:-100px;
+}
 #skDescriptionWindow .textBody {
-  height: auto;
+  height: 233px; 
+  text-align: left; 
+  
 }
 #skDescriptionWindow .textBody p {
-  width: 100%;
-  margin: 0px 4px 4px 4px;
+  width: 95%;
+  height: auto;
+  margin: 0px 5px 4px 5px;
   text-align: left;
+  float:left;
+  position: relative;
+  top:-95px;
+  font-size: 15px;
+  line-height: 18px;
+}
+#skDescriptionWindow .textBody .seeMoreSk {
+  position: relative;
+  top: 210px;
+  left: 50px;
+  width: 180px;
+  font-size: large;
+}
+/* Sk | profile image Window*/
+.windowContainer .skProfileWindow .skProfile{
+  width: 192px;
+  
+  border: 1.5px solid #000000;
+  border-top: none;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.windowContainer .skProfileWindow {
+  position: relative;
+  top: 25px;
+  left: 10px;
+  width: 192px;
 }
 /* Sk | Text Window*/
 #skContactWindow {
   position: relative;
-  left: 50%;
-  top: -76%;
+  left: 40%;
+  top: -75%;
 
-  width: 150px;
+  width: 200px;
   height: auto;
+  
   z-index: 3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+#skContactWindow .textBody, #skContactWindow .foreHead{
+  padding: 0 5px 0 5px;
+}
 #skContactWindow .textBody {
-  height: 70px;
+  padding-top: 5px;
+  height: 150px; 
+}
+#skContactWindow .textBody .contactIcons {
+  position: relative;
+  left: -20px;
+  top: -5px;
 }
 /* Sk | Header Typography*/
 #skSection .projectHeader {
@@ -614,18 +690,10 @@ footer {
   top: 50px;
   width: 3.5em;
 }
-/* Header Container | Text */
-.skPageHeader #bottomSubHeader2 {
-  position: absolute;
-  left: 52vw;
-  top: 51px;
-  width: 8em;
-  font-size: 1.4em;
-}
 /* Header Container | Image*/
 .skPageHeader #usFlag {
   position: absolute;
-  top: 20px;
+  top: 30px;
   left: 63vw;
   width: 15vw;
   height: auto;
@@ -634,7 +702,7 @@ footer {
 /* Header Container | Image*/
 .skPageHeader #saFlag {
   position: absolute;
-  top: 20px;
+  top: 30px;
   left: 81vw;
   width: 15vw;
   height: auto;
@@ -661,37 +729,53 @@ footer {
 /* Sk Profile Image Window | Container*/
 .skDescription .skProfileWindow {
   position: relative;
-  left: 0px;
-  top:0px;
-  float: right;
+  left: -10px;
+  top:5px;
+
+  float: left;
+  width: 190px;
   bottom: 55px;
   margin: 5px 0 0 2px ;
+}
+.skDescription .skProfileWindow .skProfile{
+  width: 192px;
+  border-top: none;
+}
+.skDescription .skProfileWindow .foreHead{
+  height: 24px;
 }
 /* Description Container | Sk Logo Image Window */
 /* Sk Logo Image Window | Container*/
 .skLogoWindow {
     position: relative;
-    bottom: 110px;
-    right: 10px;
+    top: 10px;
+    right: 0px;
 
     margin: 0 10px 0 10px ;
-    width: 190px;
+    width: 220px;
     height: auto;
-    float: left;
+    float: right;
     font-size: 1;
 }
+.skLogoWindow .foreHead{
+  height: 25px;
+}
+
 /* Sk Logo Image Window | Images*/
 .skLogo {
-  width: auto;
-  height: 175px;
-  border: 1px solid #000000;
+  width: 222px;
+  height: auto;
+  border: 2px solid #000000;
+  border-top: none;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+
 /* Description Container | Container */
 .skDescription {
     margin-top: 55px;
-    padding: 0.5em 0.9em 0 0.9em;
+    padding: 0.7em 0.7em 0 0.7em;
     font-size: 1.3rem;
     letter-spacing: 0.1rem;
     line-height: 1.4rem
@@ -700,17 +784,26 @@ footer {
 /* Project List container | Text */
 .skProjectContainerIntro h1{
     position: relative;
-    bottom: 90px;
+    bottom: 25px;
     display: inline-block;
     margin: 0;
-    width: 3.5em;
+    width: 6em;
+    line-height: 90px;
     font-size: 2.5em;
     font-weight: lighter;
+    color: white;
+    background-color: black;  
+    border-radius: 3px;
+}
+.skProjectContainerIntro h1 span{
+  margin: 0 2px 0 2px;
 }
 /* Project List container | Text */
 .skProjectContainerIntro{
     position: relative;
-    bottom: 10px;
+    bottom: 0px;
+
+    
 
     text-align: center;
     width: 100%;
@@ -732,7 +825,8 @@ width: 100%;
 .skSubProjectHeader h1 {
     font-size: 1.6em;
     font-weight: lighter;
-    width: 8.2em;
+    line-height: 60px;
+    width: auto;
 }
 /*Project List container | Project | Text */
 .skSubProjectHeader h3 {
@@ -750,8 +844,8 @@ width: 100%;
 /*Project List container | Project | Text */
 .skSubProjectHeader #skSubProjectYear {
     position: relative;
-    bottom: 56px;
-    left: 73vw;
+    bottom: 63.5px;
+    left: 78vw;
     width: 2em;
     margin: 0 0 0 0;
     
@@ -763,14 +857,17 @@ width: 100%;
 /*Project List container | Project | Text */
 .skSubProjectDescription {
     font-size: 0.8em;
-    margin: 25px 0 20px 0;
+    margin: 45px 0 20px 0;
+}
+.skProjectContainer:last-child .skSubProject .skSubProjectDescription {
+  margin: 75px 0 20px 0;
 }
 /*Project List container | Project | Container */
 .skSubProject {
     position: relative;
     bottom: 35px;
 
-    padding: 0 3vw 0 3vw;
+    padding: 0 1vw 0 1vw;
    }
 /*Project List container | Project | Container */
 .skProjectContainer {
@@ -780,12 +877,12 @@ width: 100%;
 #skProjectList{
     position: relative;
     bottom: 135px;
-    padding: 0 0 0 0;
+    padding: 30px 0 0 0;
 }
 /* Projects Container | Container */
 .skProjects {
     position: relative;
-    margin: 225px 0 0 0;
+    margin: 50px 0 0 0;
     font-size: 1.3rem;
   }
 
@@ -811,28 +908,36 @@ width: 100%;
 /*||||||||||||||||||||||*/
 /*|||Photography PAGE|||*/
 /*||||||||||||||||||||||*/
-
-.galleryImg {
-  padding: 0 3vh 0 3vh;
-  margin: 0 0 20px 0;
-  text-align: center;
+/* Gallery Container | Container */
+#photoContentWrap{
+  padding-bottom: 510px;
 }
-
-
-
-.galleryImg img{
-  width: 100%;
-  height: auto;
-  border: 1px solid #000000;
-}
-
-#galleryProject ul{
-  padding: 0;
-}
-
 /* Gallery Container | Container */
 #galleryProject {
   position: relative;
   padding: 8vh 0 0 0;
   font-size: 1.3rem;
 }
+/*gallery List container */
+#galleryProject ul{
+  padding: 0;
+}
+/*gallery List container | Img Content Container */
+.galleryImg {
+  padding: 0 3vh 0 3vh;
+  margin: 0 0 50px 0;
+  text-align: center;
+}
+/*gallery List container | last Img Content Container */
+#galleryProject .galleryImg:last-child{
+  margin: 0 0px 0;
+}
+/*gallery List container | Img Content Container | Image*/
+.galleryImg img{
+  width: 100%;
+  height: auto;
+  margin: 0 0 0.8vh 0;
+  border: 0.8px solid #000000;
+}
+
+
